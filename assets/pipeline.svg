@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t">
+<title id="t">Closed-loop pipeline: sense, perceive, decide, act, with feedback</title>
+<style>.m{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mono',monospace}.h{font-size:15px;font-weight:700;letter-spacing:3px}.i{font-size:13px;fill:#C9D4E6}.s{font-size:11px;fill:#8A97AD;letter-spacing:2px}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<pattern id="g1" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#151E31" stroke-width="0.6"/></pattern>
+<marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#00D4FF"/></marker>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="360" fill="#0A0E1A"/><rect width="1200" height="360" fill="url(#g1)"/>
+<text x="40" y="34" class="m s">SYSTEM ARCHITECTURE  //  HOW I BUILD INTELLIGENT MACHINES</text>
+<g class="m"><rect x="40" y="56" width="250" height="196" rx="4" fill="#0E1526" stroke="#00D4FF" stroke-opacity=".6" stroke-width="1.5"/>
+<rect x="40" y="56" width="250" height="38" rx="4" fill="#00D4FF" fill-opacity=".12"/>
+<text x="56" y="81" class="h" fill="#00D4FF">1/4  SENSE</text>
+<g stroke="#00D4FF" fill="none" stroke-width="2"><circle cx="245" cy="75" r="16"/><circle cx="245" cy="75" r="8"/><circle cx="245" cy="75" r="2.5" fill="#00D4FF"/></g>
+<text x="56" y="128" class="i"><tspan fill="#00D4FF">▸ </tspan>camera / webcam</text>
+<text x="56" y="162" class="i"><tspan fill="#00D4FF">▸ </tspan>IMU + encoders</text>
+<text x="56" y="196" class="i"><tspan fill="#00D4FF">▸ </tspan>servo + stepper feedback</text>
+<line x1="56" y1="238" x2="274" y2="238" stroke="#00D4FF" stroke-opacity=".5" stroke-dasharray="2 4"/></g>
+<path id="a0" d="M290 154H330" stroke="#00D4FF" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#ar)" fill="none"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="1s" repeatCount="indefinite"/></path>
+<circle r="4" fill="#FF7A00" filter="url(#glow)"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.0s"><mpath href="#a0"/></animateMotion></circle>
+<g class="m"><rect x="330" y="56" width="250" height="196" rx="4" fill="#0E1526" stroke="#00D4FF" stroke-opacity=".6" stroke-width="1.5"/>
+<rect x="330" y="56" width="250" height="38" rx="4" fill="#00D4FF" fill-opacity=".12"/>
+<text x="346" y="81" class="h" fill="#00D4FF">2/4  PERCEIVE</text>
+<g stroke="#00D4FF" fill="none" stroke-width="2"><path d="M519 67V59H527M543 59H551V67M551 83V91H543M527 91H519V83"/><path d="M530 75H540M535 70V80"/></g>
+<text x="346" y="128" class="i"><tspan fill="#00D4FF">▸ </tspan>OpenCV · MediaPipe</text>
+<text x="346" y="162" class="i"><tspan fill="#00D4FF">▸ </tspan>YuNet · face analysis</text>
+<text x="346" y="196" class="i"><tspan fill="#00D4FF">▸ </tspan>hand + pose tracking</text>
+<line x1="346" y1="238" x2="564" y2="238" stroke="#00D4FF" stroke-opacity=".5" stroke-dasharray="2 4"/></g>
+<path id="a1" d="M580 154H620" stroke="#00D4FF" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#ar)" fill="none"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="1s" repeatCount="indefinite"/></path>
+<circle r="4" fill="#FF7A00" filter="url(#glow)"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.35s"><mpath href="#a1"/></animateMotion></circle>
+<g class="m"><rect x="620" y="56" width="250" height="196" rx="4" fill="#0E1526" stroke="#FF7A00" stroke-opacity=".6" stroke-width="1.5"/>
+<rect x="620" y="56" width="250" height="38" rx="4" fill="#FF7A00" fill-opacity=".12"/>
+<text x="636" y="81" class="h" fill="#FF7A00">3/4  DECIDE</text>
+<g stroke="#FF7A00" stroke-width="1.6"><path d="M811 65L825 75L811 85M825 75L839 75" fill="none"/><circle cx="811" cy="65" r="3.5" fill="#0A0E1A"/><circle cx="811" cy="85" r="3.5" fill="#0A0E1A"/><circle cx="825" cy="75" r="4" fill="#FF7A00"/><circle cx="839" cy="75" r="3.5" fill="#0A0E1A"/></g>
+<text x="636" y="128" class="i"><tspan fill="#FF7A00">▸ </tspan>PyTorch · scikit-learn</text>
+<text x="636" y="162" class="i"><tspan fill="#FF7A00">▸ </tspan>RAG + evaluation</text>
+<text x="636" y="196" class="i"><tspan fill="#FF7A00">▸ </tspan>multi-agent workflows</text>
+<line x1="636" y1="238" x2="854" y2="238" stroke="#FF7A00" stroke-opacity=".5" stroke-dasharray="2 4"/></g>
+<path id="a2" d="M870 154H910" stroke="#00D4FF" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#ar)" fill="none"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="1s" repeatCount="indefinite"/></path>
+<circle r="4" fill="#FF7A00" filter="url(#glow)"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.7s"><mpath href="#a2"/></animateMotion></circle>
+<g class="m"><rect x="910" y="56" width="250" height="196" rx="4" fill="#0E1526" stroke="#FF7A00" stroke-opacity=".6" stroke-width="1.5"/>
+<rect x="910" y="56" width="250" height="38" rx="4" fill="#FF7A00" fill-opacity=".12"/>
+<text x="926" y="81" class="h" fill="#FF7A00">4/4  ACT</text>
+<g stroke="#FF7A00" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M1101 89L1113 69L1129 77"/><circle cx="1101" cy="89" r="3" fill="#0A0E1A"/><circle cx="1113" cy="69" r="3" fill="#0A0E1A"/></g>
+<text x="926" y="128" class="i"><tspan fill="#FF7A00">▸ </tspan>DH · FK · IK</text>
+<text x="926" y="162" class="i"><tspan fill="#FF7A00">▸ </tspan>PyBullet simulation</text>
+<text x="926" y="196" class="i"><tspan fill="#FF7A00">▸ </tspan>Arduino · actuators</text>
+<line x1="926" y1="238" x2="1144" y2="238" stroke="#FF7A00" stroke-opacity=".5" stroke-dasharray="2 4"/></g>
+<path id="fb" d="M1035 252V300H165V252" fill="none" stroke="#FF7A00" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.2s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#00D4FF" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#fb"/></animateMotion></circle>
+<circle r="5" fill="#00D4FF" filter="url(#glow)"><animateMotion dur="5s" begin="2.5s" repeatCount="indefinite"><mpath href="#fb"/></animateMotion></circle>
+<rect x="470" y="288" width="260" height="24" fill="#0A0E1A"/><text x="600" y="305" text-anchor="middle" class="m s" style="fill:#FF7A00">CLOSED-LOOP FEEDBACK</text>
+<text x="40" y="344" class="m s">error = target − measured   →   correct   →   repeat</text></svg>

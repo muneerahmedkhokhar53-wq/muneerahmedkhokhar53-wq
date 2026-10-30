@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="t d">
+<title id="t">Muneer Ahmed Khokhar — Mechatronics, AI and Robotics</title>
+<desc id="d">Animated engineering blueprint header with a two-link robot arm, meshing gears and telemetry readouts.</desc>
+<style>
+.m{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mono',monospace}
+.lab{font-size:11px;fill:#8A97AD;letter-spacing:2px}
+.dim{font-size:11px;fill:#5B6A85;letter-spacing:1px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+<pattern id="g1" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#151E31" stroke-width="0.6"/></pattern>
+<pattern id="g2" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#g1)"/><path d="M100 0H0V100" fill="none" stroke="#1E2A3F" stroke-width="1"/></pattern>
+<pattern id="tk" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 0V5" stroke="#5B6A85" stroke-width="1"/></pattern>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0E1A"/><stop offset=".6" stop-color="#101828"/><stop offset="1" stop-color="#131D33"/></linearGradient>
+<linearGradient id="nm" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#8FE9FF"/></linearGradient>
+<linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#00D4FF" stop-opacity="0"/><stop offset="1" stop-color="#00D4FF" stop-opacity=".22"/></linearGradient>
+<linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#00D4FF" stop-opacity="0"/><stop offset=".5" stop-color="#FF7A00"/><stop offset="1" stop-color="#00D4FF" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="rv"><rect x="56" y="118" width="0" height="84"><animate attributeName="width" from="0" to="780" dur="1.8s" begin="0.4s" fill="freeze"/></rect></clipPath>
+</defs>
+
+<rect width="1200" height="380" fill="url(#bg)"/>
+<rect width="1200" height="380" fill="url(#g2)"/>
+<rect x="0" y="0" width="1200" height="10" fill="url(#tk)"/>
+<rect x="0" y="370" width="1200" height="10" fill="url(#tk)" transform="translate(0,0)"/>
+
+<!-- scan sweep -->
+<rect y="0" width="180" height="380" fill="url(#sw)"><animate attributeName="x" from="-180" to="1200" dur="7s" repeatCount="indefinite"/></rect>
+
+<!-- corner brackets -->
+<g stroke="#00D4FF" stroke-width="2" fill="none" opacity=".9">
+<path d="M18 48V18H48"/><path d="M1152 18H1182V48"/><path d="M18 332V362H48"/><path d="M1152 362H1182V332"/>
+</g>
+
+<!-- header telemetry -->
+<g class="m">
+<text x="60" y="44" class="lab">SYS://PROFILE.MUNEER</text>
+<text x="60" y="62" class="dim">REV 2026.10  ·  FRAME: WORLD  ·  UNITS: mm / deg</text>
+<circle cx="1050" cy="40" r="4" fill="#00E676"><animate attributeName="opacity" values="1;.15;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="1062" y="44" class="lab" fill="#00E676" style="fill:#00E676">ONLINE</text>
+</g>
+
+<!-- name -->
+<g class="m" clip-path="url(#rv)">
+<text x="56" y="172" font-size="52" font-weight="800" letter-spacing="1" fill="url(#nm)" filter="url(#glow)">MUNEER AHMED</text>
+<text x="56" y="204" font-size="30" font-weight="700" letter-spacing="14" fill="#8FE9FF">KHOKHAR</text>
+</g>
+<rect x="56" y="118" width="14" height="4" fill="#FF7A00"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+
+<!-- cycling role line -->
+<g class="m" font-size="17" font-weight="600" fill="#FF7A00" letter-spacing="3">
+<text x="60" y="246" opacity="0">&gt; MECHATRONICS ENGINEERING<animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.03;.30;.33;1" begin="2s"/></text>
+<text x="60" y="246" opacity="0">&gt; COMPUTER VISION + MACHINE LEARNING<animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;.33;.36;.63;.66;1" begin="2s"/></text>
+<text x="60" y="246" opacity="0">&gt; ROBOTICS + AUTOMATION + EMBEDDED<animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;.66;.69;.97;1" begin="2s"/></text>
+</g>
+
+<!-- bottom readouts -->
+<g class="m">
+<line x1="60" y1="300" x2="720" y2="300" stroke="url(#ac)" stroke-width="2"/>
+<text x="60" y="326" class="lab">MUET JAMSHORO</text>
+<text x="250" y="326" class="lab">FINAL-YEAR MECHATRONICS</text>
+<text x="520" y="326" class="lab">AI · ROBOTICS · VISION</text>
+<text x="60" y="346" class="dim">T(i-1,i) = Rz(θ) · Tz(d) · Tx(a) · Rx(α)</text>
+</g>
+
+<!-- workspace + arm -->
+<g transform="translate(960,318)">
+<circle r="235" fill="none" stroke="#00D4FF" stroke-width="1" stroke-dasharray="3 7" opacity=".35"/>
+<circle r="110" fill="none" stroke="#00D4FF" stroke-width="1" stroke-dasharray="3 7" opacity=".2"/>
+<path d="M-235 0H235M0 -235V0" stroke="#00D4FF" stroke-width="1" opacity=".15"/>
+<rect x="-34" y="0" width="68" height="14" rx="2" fill="#1E7BFF" stroke="#8FE9FF"/>
+<path d="M-48 14H48" stroke="#FF7A00" stroke-width="2"/>
+<g filter="url(#glow)">
+<g>
+<animateTransform attributeName="transform" type="rotate" values="-78;-28;-78" keyTimes="0;.5;1" dur="7s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+<rect x="-10" y="-9" width="150" height="18" rx="9" fill="#1E7BFF" stroke="#8FE9FF" stroke-width="1.5"/>
+<line x1="8" y1="0" x2="124" y2="0" stroke="#8FE9FF" stroke-width="1" stroke-dasharray="4 5" opacity=".6"/>
+<circle r="7" fill="#101828" stroke="#FF7A00" stroke-width="2"/>
+<g transform="translate(130,0)">
+<g>
+<animateTransform attributeName="transform" type="rotate" values="35;100;35" keyTimes="0;.5;1" dur="5.3s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+<rect x="-10" y="-7" width="118" height="14" rx="7" fill="#2F8CFF" stroke="#8FE9FF" stroke-width="1.5"/>
+<circle r="6" fill="#101828" stroke="#FF7A00" stroke-width="2"/>
+<g transform="translate(104,0)">
+<path d="M0 -9H14M0 9H14M0 -9V9" stroke="#FF7A00" stroke-width="2.5" fill="none"/>
+<circle cx="18" r="3" fill="#FF7A00"><animate attributeName="r" values="3;12;3" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="1.6s" repeatCount="indefinite"/></circle>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+
+<!-- gears -->
+<g transform="translate(1085,92)" filter="url(#glow)">
+<g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+<circle r="34" fill="none" stroke="#00D4FF" stroke-width="10" stroke-dasharray="7 6.35"/>
+<circle r="28" fill="#101828" stroke="#00D4FF" stroke-width="1.5"/>
+<path d="M-28 0H28M0 -28V28M-20 -20L20 20M-20 20L20 -20" stroke="#00D4FF" stroke-width="1" opacity=".5"/>
+<circle r="6" fill="#FF7A00"/></g>
+</g>
+<g transform="translate(1143,92)" filter="url(#glow)">
+<g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="8.75s" repeatCount="indefinite"/>
+<circle r="22" fill="none" stroke="#FF7A00" stroke-width="8" stroke-dasharray="7 6.82"/>
+<circle r="17" fill="#101828" stroke="#FF7A00" stroke-width="1.5"/>
+<path d="M-17 0H17M0 -17V17" stroke="#FF7A00" stroke-width="1" opacity=".6"/>
+<circle r="4" fill="#00D4FF"/></g>
+</g>
+<g class="m"><text x="1040" y="150" class="dim">GEAR RATIO 8:5</text></g>
+</svg>
