@@ -1,17 +1,15 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/header.svg" alt="Muneer Ahmed Khokhar — Mechatronics, AI and Robotics" width="100%"/>
+<a href="https://github.com/muneerahmedkhokhar53-wq?tab=repositories"><img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/dashboard.svg" alt="Muneer Ahmed Khokhar: engineering profile dashboard with projects, pipeline coverage, stack and contact channels" width="100%"/></a>
 
-<a href="https://www.linkedin.com/in/muneer-ahmed-khokhar-b06368398"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=071A2B" alt="LinkedIn"/></a>
-<a href="https://www.youtube.com/@ailearning-v4u"><img src="https://img.shields.io/badge/YouTube-Projects-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=071A2B" alt="YouTube"/></a>
-<a href="mailto:muneerahmedkhokhar53@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-FF7A3D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=071A2B" alt="Email"/></a>
-<img src="https://komarev.com/ghpvc/?username=muneerahmedkhokhar53-wq&label=Profile%20views&color=0A6B78&style=for-the-badge&labelColor=071A2B" alt="Profile views"/>
+<a href="https://www.linkedin.com/in/muneer-ahmed-khokhar-b06368398"><img src="https://img.shields.io/badge/LinkedIn-Connect-1E7BFF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0E1A" alt="LinkedIn"/></a>
+<a href="https://www.youtube.com/@ailearning-v4u"><img src="https://img.shields.io/badge/YouTube-AI%20Learning-FF7A00?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0A0E1A" alt="YouTube"/></a>
+<a href="mailto:muneerahmedkhokhar53@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-00D4FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0E1A" alt="Email"/></a>
+<img src="https://komarev.com/ghpvc/?username=muneerahmedkhokhar53-wq&label=Profile%20views&color=1E7BFF&style=for-the-badge&labelColor=0A0E1A" alt="Profile views"/>
 
 <br/><br/>
 
 <img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/terminal.svg" alt="Terminal: who I am, what I focus on, and what I am looking for" width="100%"/>
-
-<br/>
 
 <img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/div-arch.svg" alt="System architecture" width="100%"/>
 
@@ -30,7 +28,7 @@
 | `A-01` | [RAG System + Evaluation Harness](https://github.com/muneerahmedkhokhar53-wq/RAG-system-with-an-evaluation-harness) | Document-grounded question answering with citations and a repeatable evaluation workflow. | Python · Retrieval · Evaluation | 3 |
 | `A-02` | [Multi-Agent AI Research Assistant](https://github.com/muneerahmedkhokhar53-wq/Multi-Agent-AI-Research-Assistant) | Searches, reads, drafts, and critiques source-backed reports. | Python · LangChain · Streamlit | 3 |
 
-> Loop = which stages of the pipeline above the project covers. Features and maturity vary; each repository documents its setup, limitations, and current status.
+> Loop = which pipeline stages the project covers (1 sense, 2 perceive, 3 decide, 4 act). Features and maturity vary; each repository documents its setup, limitations, and current status.
 
 <details>
 <summary><b>Kinematics core: how every arm project starts</b></summary>
@@ -65,14 +63,10 @@ def forward(joints):            # joints = [(θ, d, a, α), ...]
 
 <img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/div-telemetry.svg" alt="Live telemetry" width="100%"/>
 
-<a href="https://github.com/muneerahmedkhokhar53-wq"><img height="190" src="https://github-readme-stats.shion.dev/api?username=muneerahmedkhokhar53-wq&show_icons=true&rank_icon=github&bg_color=030D16&title_color=19E3D1&text_color=B8D4DB&icon_color=FF7A3D&border_color=14586B&hide_border=false" alt="GitHub stats"/></a>
-<a href="https://github.com/muneerahmedkhokhar53-wq"><img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=muneerahmedkhokhar53-wq&layout=compact&bg_color=030D16&title_color=19E3D1&text_color=B8D4DB&icon_color=FF7A3D&border_color=14586B&hide_border=false" alt="Top languages"/></a>
+<a href="https://github.com/muneerahmedkhokhar53-wq"><img height="190" src="https://github-readme-stats.shion.dev/api?username=muneerahmedkhokhar53-wq&show_icons=true&rank_icon=github&bg_color=0A0E1A&title_color=FF7A00&text_color=C9D4E6&icon_color=00D4FF&border_color=1E2A3F&hide_border=false" alt="GitHub stats"/></a>
+<a href="https://github.com/muneerahmedkhokhar53-wq"><img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=muneerahmedkhokhar53-wq&layout=compact&bg_color=0A0E1A&title_color=FF7A00&text_color=C9D4E6&icon_color=00D4FF&border_color=1E2A3F&hide_border=false" alt="Top languages"/></a>
 
-<img src="https://streak-stats.demolab.com/?user=muneerahmedkhokhar53-wq&hide_border=false&background=030D16&border=14586B&stroke=14586B&ring=FF7A3D&fire=FF7A3D&currStreakNum=19E3D1&currStreakLabel=19E3D1&sideNums=B8D4DB&sideLabels=7FF5E8&dates=4F7F8C" alt="Contribution streak" width="100%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=muneerahmedkhokhar53-wq&bg_color=030D16&color=19E3D1&line=FF7A3D&point_color=FFFFFF&area=true&area_color=0A6B78&title_color=19E3D1&hide_border=true" alt="Contribution activity graph" width="100%"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=muneerahmedkhokhar53-wq&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub trophies" width="100%"/>
+<img src="https://streak-stats.demolab.com/?user=muneerahmedkhokhar53-wq&hide_border=false&background=0A0E1A&border=1E2A3F&stroke=1E2A3F&ring=FF7A00&fire=FF7A00&currStreakNum=00D4FF&currStreakLabel=00D4FF&sideNums=C9D4E6&sideLabels=8A97AD&dates=5B6A85" alt="Contribution streak" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/div-contact.svg" alt="Open channel" width="100%"/>
 
@@ -91,16 +85,8 @@ ENGINEERING PROTOCOL
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/muneer-ahmed-khokhar-b06368398"><img src="https://img.shields.io/badge/LinkedIn-Muneer%20Ahmed%20Khokhar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=071A2B" alt="LinkedIn"/></a>
-<a href="https://www.youtube.com/@ailearning-v4u"><img src="https://img.shields.io/badge/YouTube-AI%20Learning-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=071A2B" alt="YouTube"/></a>
-<a href="mailto:muneerahmedkhokhar53@gmail.com"><img src="https://img.shields.io/badge/Gmail-muneerahmedkhokhar53-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=071A2B" alt="Email"/></a>
-
-<br/><br/>
+<br/>
 
 <img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/footer.svg" alt="Engineering intelligent systems, one experiment at a time" width="100%"/>
 
 </div>
-
-<!-- Optional: Buy Me a Coffee. Replace YOUR_USERNAME (no spaces) and uncomment.
-<a href="https://buymeacoffee.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"/></a>
--->
