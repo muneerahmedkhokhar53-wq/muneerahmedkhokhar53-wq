@@ -11,21 +11,15 @@
 
 <img src="assets/terminal.svg" alt="Terminal: who I am, what I focus on, and what I am looking for" width="100%"/>
 
-</div>
-
 <br/>
 
-## System architecture
+<img src="assets/div-arch.svg" alt="System architecture" width="100%"/>
 
-I think of every project as a closed loop: sense the world, perceive it, decide, act, then measure the error and correct.
-
-<div align="center">
 <img src="assets/pipeline.svg" alt="Closed-loop pipeline: sense, perceive, decide, act, with feedback" width="100%"/>
+
+<img src="assets/div-projects.svg" alt="Project index" width="100%"/>
+
 </div>
-
-## Selected projects
-
-Each project is tagged with the stages of the loop it covers.
 
 | ID | Project | What it does | Stack | Loop |
 |:--:|---|---|---|:--:|
@@ -36,11 +30,12 @@ Each project is tagged with the stages of the loop it covers.
 | `A-01` | [RAG System + Evaluation Harness](https://github.com/muneerahmedkhokhar53-wq/RAG-system-with-an-evaluation-harness) | Document-grounded question answering with citations and a repeatable evaluation workflow. | Python · Retrieval · Evaluation | 3 |
 | `A-02` | [Multi-Agent AI Research Assistant](https://github.com/muneerahmedkhokhar53-wq/Multi-Agent-AI-Research-Assistant) | Searches, reads, drafts, and critiques source-backed reports. | Python · LangChain · Streamlit | 3 |
 
-> Features and maturity vary between projects. Each repository documents its setup, limitations, and current status.
+> Loop = which stages of the pipeline above the project covers. Features and maturity vary; each repository documents its setup, limitations, and current status.
 
-## Kinematics core
+<details>
+<summary><b>Kinematics core: how every arm project starts</b></summary>
 
-The idea behind my arm work: every joint is one homogeneous transform, and the end effector is their product.
+<br/>
 
 ```python
 import numpy as np
@@ -60,29 +55,31 @@ def forward(joints):            # joints = [(θ, d, a, α), ...]
     return T                    # base → end effector
 ```
 
-## Toolkit
+</details>
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![PyBullet](https://img.shields.io/badge/PyBullet-Simulation-0A6B78?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+<img src="assets/div-stack.svg" alt="Tech stack" width="100%"/>
+
+<img src="assets/stack.svg" alt="Technology stack grouped by capability" width="100%"/>
+
+<img src="assets/div-telemetry.svg" alt="Live telemetry" width="100%"/>
+
+<a href="https://github.com/muneerahmedkhokhar53-wq"><img height="190" src="https://github-readme-stats.shion.dev/api?username=muneerahmedkhokhar53-wq&show_icons=true&rank_icon=github&bg_color=030D16&title_color=19E3D1&text_color=B8D4DB&icon_color=FF7A3D&border_color=14586B&hide_border=false" alt="GitHub stats"/></a>
+<a href="https://github.com/muneerahmedkhokhar53-wq"><img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=muneerahmedkhokhar53-wq&layout=compact&bg_color=030D16&title_color=19E3D1&text_color=B8D4DB&icon_color=FF7A3D&border_color=14586B&hide_border=false" alt="Top languages"/></a>
+
+<img src="https://streak-stats.demolab.com/?user=muneerahmedkhokhar53-wq&hide_border=false&background=030D16&border=14586B&stroke=14586B&ring=FF7A3D&fire=FF7A3D&currStreakNum=19E3D1&currStreakLabel=19E3D1&sideNums=B8D4DB&sideLabels=7FF5E8&dates=4F7F8C" alt="Contribution streak" width="100%"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=muneerahmedkhokhar53-wq&bg_color=030D16&color=19E3D1&line=FF7A3D&point_color=FFFFFF&area=true&area_color=0A6B78&title_color=19E3D1&hide_border=true" alt="Contribution activity graph" width="100%"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=muneerahmedkhokhar53-wq&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub trophies" width="100%"/>
+
+<img src="assets/div-contact.svg" alt="Open channel" width="100%"/>
 
 </div>
 
-## Engineering protocol
-
 ```text
+ENGINEERING PROTOCOL
 1. build the smallest testable version first
 2. document install, config, controls, and known limits
 3. prefer measured results over unsupported performance claims
@@ -90,14 +87,20 @@ def forward(joints):            # joints = [(θ, d, a, α), ...]
    especially for camera-based systems
 ```
 
-## Currently exploring
-
-Robotics and AI integration · reliable computer-vision pipelines · robot kinematics and control · evaluation methods for AI applications
+**Currently exploring:** robotics and AI integration · reliable computer-vision pipelines · robot kinematics and control · evaluation methods for AI applications
 
 <div align="center">
 
-<br/>
+<a href="https://www.linkedin.com/in/muneer-ahmed-khokhar-b06368398"><img src="https://img.shields.io/badge/LinkedIn-Muneer%20Ahmed%20Khokhar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=071A2B" alt="LinkedIn"/></a>
+<a href="https://www.youtube.com/@ailearning-v4u"><img src="https://img.shields.io/badge/YouTube-AI%20Learning-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=071A2B" alt="YouTube"/></a>
+<a href="mailto:muneerahmedkhokhar53@gmail.com"><img src="https://img.shields.io/badge/Gmail-muneerahmedkhokhar53-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=071A2B" alt="Email"/></a>
+
+<br/><br/>
 
 <img src="assets/footer.svg" alt="Engineering intelligent systems, one experiment at a time" width="100%"/>
 
 </div>
+
+<!-- Optional: Buy Me a Coffee. Replace YOUR_USERNAME (no spaces) and uncomment.
+<a href="https://buymeacoffee.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"/></a>
+-->
