@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Muneer Ahmed Khokhar — Mechatronics, AI and Robotics" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/header.svg" alt="Muneer Ahmed Khokhar — Mechatronics, AI and Robotics" width="100%"/>
 
 <a href="https://www.linkedin.com/in/muneer-ahmed-khokhar-b06368398"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=071A2B" alt="LinkedIn"/></a>
 <a href="https://www.youtube.com/@ailearning-v4u"><img src="https://img.shields.io/badge/YouTube-Projects-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=071A2B" alt="YouTube"/></a>
@@ -9,15 +9,15 @@
 
 <br/><br/>
 
-<img src="assets/terminal.svg" alt="Terminal: who I am, what I focus on, and what I am looking for" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/terminal.svg" alt="Terminal: who I am, what I focus on, and what I am looking for" width="100%"/>
 
 <br/>
 
-<img src="assets/div-arch.svg" alt="System architecture" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/div-arch.svg" alt="System architecture" width="100%"/>
 
-<img src="assets/pipeline.svg" alt="Closed-loop pipeline: sense, perceive, decide, act, with feedback" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/pipeline.svg" alt="Closed-loop pipeline: sense, perceive, decide, act, with feedback" width="100%"/>
 
-<img src="assets/div-projects.svg" alt="Project index" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/div-projects.svg" alt="Project index" width="100%"/>
 
 </div>
 
@@ -59,11 +59,11 @@ def forward(joints):            # joints = [(θ, d, a, α), ...]
 
 <div align="center">
 
-<img src="assets/div-stack.svg" alt="Tech stack" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/div-stack.svg" alt="Tech stack" width="100%"/>
 
-<img src="assets/stack.svg" alt="Technology stack grouped by capability" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/stack.svg" alt="Technology stack grouped by capability" width="100%"/>
 
-<img src="assets/div-telemetry.svg" alt="Live telemetry" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/div-telemetry.svg" alt="Live telemetry" width="100%"/>
 
 <a href="https://github.com/muneerahmedkhokhar53-wq"><img height="190" src="https://github-readme-stats.shion.dev/api?username=muneerahmedkhokhar53-wq&show_icons=true&rank_icon=github&bg_color=030D16&title_color=19E3D1&text_color=B8D4DB&icon_color=FF7A3D&border_color=14586B&hide_border=false" alt="GitHub stats"/></a>
 <a href="https://github.com/muneerahmedkhokhar53-wq"><img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=muneerahmedkhokhar53-wq&layout=compact&bg_color=030D16&title_color=19E3D1&text_color=B8D4DB&icon_color=FF7A3D&border_color=14586B&hide_border=false" alt="Top languages"/></a>
@@ -74,7 +74,7 @@ def forward(joints):            # joints = [(θ, d, a, α), ...]
 
 <img src="https://github-profile-trophy.vercel.app/?username=muneerahmedkhokhar53-wq&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub trophies" width="100%"/>
 
-<img src="assets/div-contact.svg" alt="Open channel" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/div-contact.svg" alt="Open channel" width="100%"/>
 
 </div>
 
@@ -97,7 +97,7 @@ ENGINEERING PROTOCOL
 
 <br/><br/>
 
-<img src="assets/footer.svg" alt="Engineering intelligent systems, one experiment at a time" width="100%"/>
+<img src="https://raw.githubusercontent.com/muneerahmedkhokhar53-wq/muneerahmedkhokhar53-wq/main/assets/footer.svg" alt="Engineering intelligent systems, one experiment at a time" width="100%"/>
 
 </div>
 
