@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-label="Technology stack grouped by capability">
+<style>.m{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mono',monospace}.s{font-size:11px;letter-spacing:2px}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<pattern id="g1" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#0D3342" stroke-width="0.6"/></pattern>
+<linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#19E3D1" stop-opacity="0"/><stop offset="1" stop-color="#19E3D1" stop-opacity=".16"/></linearGradient>
+<clipPath id="cp"><rect x="1" y="1" width="1198" height="368" rx="6"/></clipPath>
+</defs>
+<rect x="1" y="1" width="1198" height="368" rx="6" fill="#030D16" stroke="#14586B" stroke-width="1.5"/>
+<g clip-path="url(#cp)"><rect width="1200" height="370" fill="url(#g1)"/>
+<rect width="160" height="370" fill="url(#sw)"><animate attributeName="x" from="-160" to="1200" dur="8s" repeatCount="indefinite"/></rect></g>
+<text x="28" y="60" class="m s" fill="#19E3D1">LANGUAGES + TOOLS</text>
+<line x1="250" y1="38" x2="250" y2="74" stroke="#14586B"/>
+<g class="m"><rect x="276" y="38" width="86" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="276" y="38" width="4" height="36" fill="#19E3D1"/><text x="294" y="61" font-size="14" fill="#E6F4F7">Python</text></g>
+<g class="m"><rect x="376" y="38" width="58" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="376" y="38" width="4" height="36" fill="#19E3D1"/><text x="394" y="61" font-size="14" fill="#E6F4F7">C++</text></g>
+<g class="m"><rect x="448" y="38" width="58" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="448" y="38" width="4" height="36" fill="#19E3D1"/><text x="466" y="61" font-size="14" fill="#E6F4F7">Git</text></g>
+<g class="m"><rect x="520" y="38" width="77" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="520" y="38" width="4" height="36" fill="#19E3D1"/><text x="538" y="61" font-size="14" fill="#E6F4F7">Linux</text></g>
+<line x1="20" y1="81" x2="1180" y2="81" stroke="#0D3342"/>
+<text x="28" y="118" class="m s" fill="#19E3D1">COMPUTER VISION</text>
+<line x1="250" y1="96" x2="250" y2="132" stroke="#14586B"/>
+<g class="m"><rect x="276" y="96" width="86" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="276" y="96" width="4" height="36" fill="#19E3D1"/><text x="294" y="119" font-size="14" fill="#E6F4F7">OpenCV</text></g>
+<g class="m"><rect x="376" y="96" width="114" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="376" y="96" width="4" height="36" fill="#19E3D1"/><text x="394" y="119" font-size="14" fill="#E6F4F7">MediaPipe</text></g>
+<g class="m"><rect x="504" y="96" width="77" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="504" y="96" width="4" height="36" fill="#19E3D1"/><text x="522" y="119" font-size="14" fill="#E6F4F7">YuNet</text></g>
+<g class="m"><rect x="595" y="96" width="67" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="595" y="96" width="4" height="36" fill="#19E3D1"/><text x="613" y="119" font-size="14" fill="#E6F4F7">LBPH</text></g>
+<line x1="20" y1="139" x2="1180" y2="139" stroke="#0D3342"/>
+<text x="28" y="176" class="m s" fill="#FF7A3D">ML + AI</text>
+<line x1="250" y1="154" x2="250" y2="190" stroke="#14586B"/>
+<g class="m"><rect x="276" y="154" width="95" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="276" y="154" width="4" height="36" fill="#FF7A3D"/><text x="294" y="177" font-size="14" fill="#E6F4F7">PyTorch</text></g>
+<g class="m"><rect x="385" y="154" width="142" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="385" y="154" width="4" height="36" fill="#FF7A3D"/><text x="403" y="177" font-size="14" fill="#E6F4F7">scikit-learn</text></g>
+<g class="m"><rect x="541" y="154" width="77" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="541" y="154" width="4" height="36" fill="#FF7A3D"/><text x="559" y="177" font-size="14" fill="#E6F4F7">NumPy</text></g>
+<g class="m"><rect x="632" y="154" width="86" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="632" y="154" width="4" height="36" fill="#FF7A3D"/><text x="650" y="177" font-size="14" fill="#E6F4F7">Pandas</text></g>
+<g class="m"><rect x="732" y="154" width="114" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="732" y="154" width="4" height="36" fill="#FF7A3D"/><text x="750" y="177" font-size="14" fill="#E6F4F7">LangChain</text></g>
+<g class="m"><rect x="860" y="154" width="58" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="860" y="154" width="4" height="36" fill="#FF7A3D"/><text x="878" y="177" font-size="14" fill="#E6F4F7">RAG</text></g>
+<line x1="20" y1="197" x2="1180" y2="197" stroke="#0D3342"/>
+<text x="28" y="234" class="m s" fill="#FF7A3D">ROBOTICS + SIM</text>
+<line x1="250" y1="212" x2="250" y2="248" stroke="#14586B"/>
+<g class="m"><rect x="276" y="212" width="105" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="276" y="212" width="4" height="36" fill="#FF7A3D"/><text x="294" y="235" font-size="14" fill="#E6F4F7">PyBullet</text></g>
+<g class="m"><rect x="395" y="212" width="152" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="395" y="212" width="4" height="36" fill="#FF7A3D"/><text x="413" y="235" font-size="14" fill="#E6F4F7">DH kinematics</text></g>
+<g class="m"><rect x="561" y="212" width="95" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="561" y="212" width="4" height="36" fill="#FF7A3D"/><text x="579" y="235" font-size="14" fill="#E6F4F7">FK / IK</text></g>
+<g class="m"><rect x="670" y="212" width="152" height="36" rx="4" fill="#FF7A3D" fill-opacity=".08" stroke="#FF7A3D" stroke-opacity=".7"/><rect x="670" y="212" width="4" height="36" fill="#FF7A3D"/><text x="688" y="235" font-size="14" fill="#E6F4F7">Teleoperation</text></g>
+<line x1="20" y1="255" x2="1180" y2="255" stroke="#0D3342"/>
+<text x="28" y="292" class="m s" fill="#19E3D1">EMBEDDED + APPS</text>
+<line x1="250" y1="270" x2="250" y2="306" stroke="#14586B"/>
+<g class="m"><rect x="276" y="270" width="95" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="276" y="270" width="4" height="36" fill="#19E3D1"/><text x="294" y="293" font-size="14" fill="#E6F4F7">Arduino</text></g>
+<g class="m"><rect x="385" y="270" width="95" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="385" y="270" width="4" height="36" fill="#19E3D1"/><text x="403" y="293" font-size="14" fill="#E6F4F7">FastAPI</text></g>
+<g class="m"><rect x="494" y="270" width="114" height="36" rx="4" fill="#19E3D1" fill-opacity=".08" stroke="#19E3D1" stroke-opacity=".7"/><rect x="494" y="270" width="4" height="36" fill="#19E3D1"/><text x="512" y="293" font-size="14" fill="#E6F4F7">Streamlit</text></g>
+</svg>
