@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t">
+<title id="t">Engineering intelligent systems, one experiment at a time</title>
+<style>.m{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mono',monospace}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<pattern id="g1" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#151E31" stroke-width="0.6"/></pattern>
+<linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#00D4FF" stop-opacity="0"/><stop offset=".5" stop-color="#FF7A00"/><stop offset="1" stop-color="#00D4FF" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="150" fill="#0A0E1A"/><rect width="1200" height="150" fill="url(#g1)"/>
+<rect y="0" width="1200" height="2" fill="url(#ac)"/>
+<path d="M0 70H180L196 70L206 40L218 100L230 20L244 85L254 70H470L486 70L496 45L508 95L520 25L534 85L544 70H760L776 70L786 38L798 102L810 18L824 85L834 70H1200" fill="none" stroke="#1E2A3F" stroke-width="2"/>
+<path d="M0 70H180L196 70L206 40L218 100L230 20L244 85L254 70H470L486 70L496 45L508 95L520 25L534 85L544 70H760L776 70L786 38L798 102L810 18L824 85L834 70H1200" fill="none" stroke="#00D4FF" stroke-width="3" pathLength="1000" stroke-dasharray="140 860" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="1000" to="0" dur="4s" repeatCount="indefinite"/></path>
+<text x="600" y="128" text-anchor="middle" class="m" font-size="14" letter-spacing="3" fill="#8A97AD">ENGINEERING INTELLIGENT SYSTEMS, ONE EXPERIMENT AT A TIME</text>
+</svg>
